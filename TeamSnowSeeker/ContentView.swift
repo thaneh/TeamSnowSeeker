@@ -5,7 +5,7 @@
 //  Created by Thane Heninger on 11/18/20.
 //
 
-import SwiftUI
+import SwiftUI 
 
 struct ContentView: View {
     let resorts:[Resort] = Resort.allResorts
