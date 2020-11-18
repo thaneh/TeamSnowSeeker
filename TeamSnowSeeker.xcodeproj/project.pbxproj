@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F06249382565C01800932D9E /* TeamSnowSeekerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06249372565C01800932D9E /* TeamSnowSeekerApp.swift */; };
+		F062493A2565C01800932D9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06249392565C01800932D9E /* ContentView.swift */; };
+		F062493C2565C01900932D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F062493B2565C01900932D9E /* Assets.xcassets */; };
+		F062493F2565C01900932D9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F062493E2565C01900932D9E /* Preview Assets.xcassets */; };
+		F062494A2565C01900932D9E /* TeamSnowSeekerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06249492565C01900932D9E /* TeamSnowSeekerTests.swift */; };
+		F06249552565C01900932D9E /* TeamSnowSeekerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06249542565C01900932D9E /* TeamSnowSeekerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F06249462565C01900932D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F062492C2565C01800932D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06249332565C01800932D9E;
+			remoteInfo = TeamSnowSeeker;
+		};
+		F06249512565C01900932D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F062492C2565C01800932D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06249332565C01800932D9E;
+			remoteInfo = TeamSnowSeeker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F06249342565C01800932D9E /* TeamSnowSeeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamSnowSeeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06249372565C01800932D9E /* TeamSnowSeekerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSnowSeekerApp.swift; sourceTree = "<group>"; };
+		F06249392565C01800932D9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F062493B2565C01900932D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F062493E2565C01900932D9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F06249402565C01900932D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06249452565C01900932D9E /* TeamSnowSeekerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamSnowSeekerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06249492565C01900932D9E /* TeamSnowSeekerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSnowSeekerTests.swift; sourceTree = "<group>"; };
+		F062494B2565C01900932D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06249502565C01900932D9E /* TeamSnowSeekerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamSnowSeekerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06249542565C01900932D9E /* TeamSnowSeekerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSnowSeekerUITests.swift; sourceTree = "<group>"; };
+		F06249562565C01900932D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06249692565C08A00932D9E /* resorts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06249312565C01800932D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06249422565C01900932D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F062494D2565C01900932D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F062492B2565C01800932D9E = {
+			isa = PBXGroup;
+			children = (
+				F06249362565C01800932D9E /* TeamSnowSeeker */,
+				F06249482565C01900932D9E /* TeamSnowSeekerTests */,
+				F06249532565C01900932D9E /* TeamSnowSeekerUITests */,
+				F06249352565C01800932D9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F06249352565C01800932D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06249342565C01800932D9E /* TeamSnowSeeker.app */,
+				F06249452565C01900932D9E /* TeamSnowSeekerTests.xctest */,
+				F06249502565C01900932D9E /* TeamSnowSeekerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06249362565C01800932D9E /* TeamSnowSeeker */ = {
+			isa = PBXGroup;
+			children = (
+				F06249372565C01800932D9E /* TeamSnowSeekerApp.swift */,
+				F06249392565C01800932D9E /* ContentView.swift */,
+				F062493B2565C01900932D9E /* Assets.xcassets */,
+				F06249402565C01900932D9E /* Info.plist */,
+				F06249692565C08A00932D9E /* resorts.json */,
+				F062493D2565C01900932D9E /* Preview Content */,
+			);
+			path = TeamSnowSeeker;
+			sourceTree = "<group>";
+		};
+		F062493D2565C01900932D9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F062493E2565C01900932D9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F06249482565C01900932D9E /* TeamSnowSeekerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F06249492565C01900932D9E /* TeamSnowSeekerTests.swift */,
+				F062494B2565C01900932D9E /* Info.plist */,
+			);
+			path = TeamSnowSeekerTests;
+			sourceTree = "<group>";
+		};
+		F06249532565C01900932D9E /* TeamSnowSeekerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F06249542565C01900932D9E /* TeamSnowSeekerUITests.swift */,
+				F06249562565C01900932D9E /* Info.plist */,
+			);
+			path = TeamSnowSeekerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06249332565C01800932D9E /* TeamSnowSeeker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06249592565C01900932D9E /* Build configuration list for PBXNativeTarget "TeamSnowSeeker" */;
+			buildPhases = (
+				F06249302565C01800932D9E /* Sources */,
+				F06249312565C01800932D9E /* Frameworks */,
+				F06249322565C01800932D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeamSnowSeeker;
+			productName = TeamSnowSeeker;
+			productReference = F06249342565C01800932D9E /* TeamSnowSeeker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F06249442565C01900932D9E /* TeamSnowSeekerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F062495C2565C01900932D9E /* Build configuration list for PBXNativeTarget "TeamSnowSeekerTests" */;
+			buildPhases = (
+				F06249412565C01900932D9E /* Sources */,
+				F06249422565C01900932D9E /* Frameworks */,
+				F06249432565C01900932D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06249472565C01900932D9E /* PBXTargetDependency */,
+			);
+			name = TeamSnowSeekerTests;
+			productName = TeamSnowSeekerTests;
+			productReference = F06249452565C01900932D9E /* TeamSnowSeekerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F062494F2565C01900932D9E /* TeamSnowSeekerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F062495F2565C01900932D9E /* Build configuration list for PBXNativeTarget "TeamSnowSeekerUITests" */;
+			buildPhases = (
+				F062494C2565C01900932D9E /* Sources */,
+				F062494D2565C01900932D9E /* Frameworks */,
+				F062494E2565C01900932D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06249522565C01900932D9E /* PBXTargetDependency */,
+			);
+			name = TeamSnowSeekerUITests;
+			productName = TeamSnowSeekerUITests;
+			productReference = F06249502565C01900932D9E /* TeamSnowSeekerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F062492C2565C01800932D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F06249332565C01800932D9E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F06249442565C01900932D9E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F06249332565C01800932D9E;
+					};
+					F062494F2565C01900932D9E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F06249332565C01800932D9E;
+					};
+				};
+			};
+			buildConfigurationList = F062492F2565C01800932D9E /* Build configuration list for PBXProject "TeamSnowSeeker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F062492B2565C01800932D9E;
+			productRefGroup = F06249352565C01800932D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06249332565C01800932D9E /* TeamSnowSeeker */,
+				F06249442565C01900932D9E /* TeamSnowSeekerTests */,
+				F062494F2565C01900932D9E /* TeamSnowSeekerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06249322565C01800932D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F062493F2565C01900932D9E /* Preview Assets.xcassets in Resources */,
+				F062493C2565C01900932D9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06249432565C01900932D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F062494E2565C01900932D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06249302565C01800932D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F062493A2565C01800932D9E /* ContentView.swift in Sources */,
+				F06249382565C01800932D9E /* TeamSnowSeekerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06249412565C01900932D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F062494A2565C01900932D9E /* TeamSnowSeekerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F062494C2565C01900932D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06249552565C01900932D9E /* TeamSnowSeekerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F06249472565C01900932D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06249332565C01800932D9E /* TeamSnowSeeker */;
+			targetProxy = F06249462565C01900932D9E /* PBXContainerItemProxy */;
+		};
+		F06249522565C01900932D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06249332565C01800932D9E /* TeamSnowSeeker */;
+			targetProxy = F06249512565C01900932D9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F06249572565C01900932D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F06249582565C01900932D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F062495A2565C01900932D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TeamSnowSeeker/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SA677UMLV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TeamSnowSeeker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.control4.TeamSnowSeeker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F062495B2565C01900932D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TeamSnowSeeker/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SA677UMLV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TeamSnowSeeker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.control4.TeamSnowSeeker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F062495D2565C01900932D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SA677UMLV;
+				INFOPLIST_FILE = TeamSnowSeekerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.control4.TeamSnowSeekerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamSnowSeeker.app/TeamSnowSeeker";
+			};
+			name = Debug;
+		};
+		F062495E2565C01900932D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SA677UMLV;
+				INFOPLIST_FILE = TeamSnowSeekerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.control4.TeamSnowSeekerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamSnowSeeker.app/TeamSnowSeeker";
+			};
+			name = Release;
+		};
+		F06249602565C01900932D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SA677UMLV;
+				INFOPLIST_FILE = TeamSnowSeekerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.control4.TeamSnowSeekerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeamSnowSeeker;
+			};
+			name = Debug;
+		};
+		F06249612565C01900932D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SA677UMLV;
+				INFOPLIST_FILE = TeamSnowSeekerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.control4.TeamSnowSeekerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeamSnowSeeker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F062492F2565C01800932D9E /* Build configuration list for PBXProject "TeamSnowSeeker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06249572565C01900932D9E /* Debug */,
+				F06249582565C01900932D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06249592565C01900932D9E /* Build configuration list for PBXNativeTarget "TeamSnowSeeker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F062495A2565C01900932D9E /* Debug */,
+				F062495B2565C01900932D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F062495C2565C01900932D9E /* Build configuration list for PBXNativeTarget "TeamSnowSeekerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F062495D2565C01900932D9E /* Debug */,
+				F062495E2565C01900932D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F062495F2565C01900932D9E /* Build configuration list for PBXNativeTarget "TeamSnowSeekerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06249602565C01900932D9E /* Debug */,
+				F06249612565C01900932D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F062492C2565C01800932D9E /* Project object */;
+}
