@@ -10,6 +10,7 @@
 		5CCA43782565D69500B23A8A /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA43752565D69500B23A8A /* Resort.swift */; };
 		5CCA43792565D69500B23A8A /* View+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA43762565D69500B23A8A /* View+Border.swift */; };
 		5CCA437A2565D69500B23A8A /* BundleDecodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA43772565D69500B23A8A /* BundleDecodeable.swift */; };
+		5CCA437E2565D6E500B23A8A /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = F06249692565C08A00932D9E /* resorts.json */; };
 		F06249382565C01800932D9E /* TeamSnowSeekerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06249372565C01800932D9E /* TeamSnowSeekerApp.swift */; };
 		F062493A2565C01800932D9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06249392565C01800932D9E /* ContentView.swift */; };
 		F062493C2565C01900932D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F062493B2565C01900932D9E /* Assets.xcassets */; };
@@ -244,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCA437E2565D6E500B23A8A /* resorts.json in Resources */,
 				F062493F2565C01900932D9E /* Preview Assets.xcassets in Resources */,
 				F062493C2565C01900932D9E /* Assets.xcassets in Resources */,
 			);
