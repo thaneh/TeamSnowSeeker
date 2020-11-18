@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CCA43782565D69500B23A8A /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA43752565D69500B23A8A /* Resort.swift */; };
+		5CCA43792565D69500B23A8A /* View+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA43762565D69500B23A8A /* View+Border.swift */; };
+		5CCA437A2565D69500B23A8A /* BundleDecodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA43772565D69500B23A8A /* BundleDecodeable.swift */; };
 		F06249382565C01800932D9E /* TeamSnowSeekerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06249372565C01800932D9E /* TeamSnowSeekerApp.swift */; };
 		F062493A2565C01800932D9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06249392565C01800932D9E /* ContentView.swift */; };
 		F062493C2565C01900932D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F062493B2565C01900932D9E /* Assets.xcassets */; };
@@ -33,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CCA43752565D69500B23A8A /* Resort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		5CCA43762565D69500B23A8A /* View+Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Border.swift"; sourceTree = "<group>"; };
+		5CCA43772565D69500B23A8A /* BundleDecodeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleDecodeable.swift; sourceTree = "<group>"; };
 		F06249342565C01800932D9E /* TeamSnowSeeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamSnowSeeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06249372565C01800932D9E /* TeamSnowSeekerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSnowSeekerApp.swift; sourceTree = "<group>"; };
 		F06249392565C01800932D9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 		F06249362565C01800932D9E /* TeamSnowSeeker */ = {
 			isa = PBXGroup;
 			children = (
+				5CCA43772565D69500B23A8A /* BundleDecodeable.swift */,
+				5CCA43752565D69500B23A8A /* Resort.swift */,
+				5CCA43762565D69500B23A8A /* View+Border.swift */,
 				F06249372565C01800932D9E /* TeamSnowSeekerApp.swift */,
 				F06249392565C01800932D9E /* ContentView.swift */,
 				F062493B2565C01900932D9E /* Assets.xcassets */,
@@ -261,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCA437A2565D69500B23A8A /* BundleDecodeable.swift in Sources */,
+				5CCA43792565D69500B23A8A /* View+Border.swift in Sources */,
 				F062493A2565C01800932D9E /* ContentView.swift in Sources */,
+				5CCA43782565D69500B23A8A /* Resort.swift in Sources */,
 				F06249382565C01800932D9E /* TeamSnowSeekerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
